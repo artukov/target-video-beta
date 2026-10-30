@@ -2,7 +2,7 @@
 
 A clickable prototype of the DramaFlash beta app, built from the supplied screen design (`FLASH.svg`). It covers one journey end to end: the Home feed, a real video player, the lock after the cliffhanger, and a coin unlock that continues straight into the next episode. Everything else in the design is either wired minimally or labelled as not part of the prototype, except sign-in (frame 6) and the player's comment button, which are left out.
 
-Walkthrough video: _link to be added_
+Walkthrough video: [watch on Loom](https://www.loom.com/share/1107f1864f764571ab6191899f62ae80)
 
 ## Run it
 
