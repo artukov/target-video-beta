@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "DramaFlash",
+    "slug": "dramaflash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "dramaflash",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dramaflash.prototype"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#64EDF7",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "package": "com.dramaflash.prototype",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000000",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 88
+        }
+      ],
+      "expo-video",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "backgroundColor": "#000000"
+  }
+}
